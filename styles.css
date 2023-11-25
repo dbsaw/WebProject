@@ -489,8 +489,6 @@ nav .bar a:hover {
     .cal-input {
         text-align: center;
     }
-
-    main {}
 }
 
 
@@ -504,7 +502,7 @@ nav .bar a:hover {
 
 }
 
-/* Calculator */
+/* Calculator page*/
 
 
 main {
@@ -530,13 +528,13 @@ main {
 
 #calculator h2 {
     padding-bottom: 1em;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
-#calculator ul {
-    list-style-type: square;
-    padding-left: 20px;
-    color: #555;
+#calculator p {
+    width: 80%;
+    font-size: 0.8em;
+    text-align: justify;
     padding-bottom: 1em;
 }
 
@@ -559,7 +557,7 @@ label {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #3b60ff;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -578,7 +576,14 @@ button {
 }
 
 #table h2 {
-    text-align: center;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+#table p {
+    font-size: 1.2em;
+    text-align: justify;
+    padding-bottom: 1em;
 }
 
 table {
@@ -595,7 +600,7 @@ td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #e4eaff;
 }
 
 
