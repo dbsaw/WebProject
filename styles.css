@@ -98,9 +98,9 @@ nav .bar a:hover {
 
 /* Style for the first section of the home page "Brief" */
 .brief {
-    
 
-    background: URL("Asset-22.png") no-repeat;
+
+    background: URL("images/Asset-22.png") no-repeat;
     background-size: 100% 100%;
     padding: 100px;
 
@@ -322,10 +322,33 @@ nav .bar a:hover {
     fill: #e31d3b;
 }
 
-#calc-button a:active,#training-button a:active,#recipes-button a:active{color: white; text-decoration: none;}
-#calc-button a:link,#training-button a:link,#recipes-button a:link{color: white; text-decoration: none;}
-#calc-button a:hover,#training-button a:hover,#recipes-button a:hover{color: white; text-decoration:underline;}
-#calc-button a:visited,#training-button a:visited,#recipes-button a:visited{color: white; text-decoration:underline;}
+#calc-button a:active,
+#training-button a:active,
+#recipes-button a:active {
+    color: white;
+    text-decoration: none;
+}
+
+#calc-button a:link,
+#training-button a:link,
+#recipes-button a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#calc-button a:hover,
+#training-button a:hover,
+#recipes-button a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#calc-button a:visited,
+#training-button a:visited,
+#recipes-button a:visited {
+    color: white;
+    text-decoration: underline;
+}
 
 
 /* end of style for the third section of the home page "calculator" */
@@ -377,7 +400,7 @@ nav .bar a:hover {
     display: inline-block;
     border: 1px solid grey;
     border-radius: 4px;
-   
+
 }
 
 #register form .input-box {
