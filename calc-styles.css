@@ -14,7 +14,7 @@ body {
 }
 
 nav {
-    background-color: #1c1c1c;
+    background-color: #37b8d2;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     justify-content: center;
     display: flex;
@@ -37,7 +37,7 @@ nav {
 .x img {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 60px;
+    width: 20%;
 }
 
 nav h1 {
@@ -75,8 +75,8 @@ nav .bar {
 }
 
 nav .bar a:hover {
-    background-color: #3b60ff;
-    color: white;
+    background-color: #ffffff;
+    color: #37b8d2;
     border-radius: 3px;
 }
 
@@ -689,7 +689,7 @@ th {
 
 .footerContainer .links a:hover {
 
-    color: #3b60ff;
+    color: #37b8d2;
 }
 
 
@@ -737,7 +737,7 @@ th {
 }
 
 .footerContainer .middleSection p a:hover {
-    color: #3b60ff;
+    color: #37b8d2;
     text-decoration: none;
     ;
 }
@@ -782,7 +782,7 @@ h3 {
 }
 
 .footerContainer .icons a:hover {
-    background-color: #3F71EA;
+    background-color: #37b8d2;
 }
 
 .footerContainer .fa-brands.fa-instagram,
