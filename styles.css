@@ -1,4 +1,4 @@
-/* Home Page*/
+* Home Page*/
 * {
 
     margin: 0;
@@ -13,6 +13,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* general style for the page */
 .home p {
@@ -165,13 +166,13 @@ nav .bar a:hover {
 
 /* Style for the secind and the fourth section of the home page "training" and "recipes" */
 
-.training-container,
-.recipes-container {
+.service-container,
+#recipes-container {
     display: flex;
 }
 
-.training,
-.recipes {
+#training,
+#recipes {
     padding: 70px;
     background-color: #1c1c1c;
     width: 70%;
@@ -182,7 +183,7 @@ nav .bar a:hover {
 
 }
 
-.training-img {
+#training-img {
     background: url("./images/FIRST-PAGE4.png") no-repeat;
     background-size: 100% 100%;
     width: 30%;
@@ -191,7 +192,7 @@ nav .bar a:hover {
 
 }
 
-.recipes-img {
+#recipes-img {
     background: url("./images/FIRST-PAGE5.jpg") no-repeat;
     background-size: 100% 100%;
     width: 30%;
@@ -200,11 +201,11 @@ nav .bar a:hover {
 
 }
 
-.training h1 {
+#training h1 {
     color: white;
 }
 
-.training p {
+#training p {
 
     letter-spacing: 2px;
     margin-top: 50px;
@@ -214,8 +215,8 @@ nav .bar a:hover {
     padding-bottom: 30px;
 }
 
-.recipes p,
-.calc p {
+#recipes p,
+#calc p {
     letter-spacing: 2px;
     margin-top: 70px;
     color: white;
@@ -226,19 +227,19 @@ nav .bar a:hover {
 
 
 
-.training span,
-.recipes span {
+#training span,
+#recipes span {
     color: #e31d3b;
 }
 
-.training h2 {
+#training h2 {
     margin-top: 70px;
 
     padding-bottom: 10px;
 }
 
-.training li,
-.calc li {
+#training li,
+#calc li {
 
     font-size: 20px;
     padding: 10px;
@@ -246,12 +247,12 @@ nav .bar a:hover {
     list-style: none;
 }
 
-.training .check {
+#training .check {
     fill: #e31d3b;
 }
 
-.training-img button,
-.recipes-img button {
+#training-img button,
+#recipes-img button {
 
     background-color: #e31d3b;
     color: white;
@@ -266,22 +267,22 @@ nav .bar a:hover {
     margin-top: 90%;
 }
 
-.training-button,
-.recipes-button {
+#training-button,
+#recipes-button {
     margin: 0 auto;
     margin-top: 90%;
 }
 
-.training-img .scroll-button,
-.recipes-img .scroll-button {
+#training-img .scroll-button,
+#recipes-img .scroll-button {
     margin: 0 auto;
 
 }
 
-/* end of Style for the secind and the fourth section of the home page "training" and "recipes" */
+/* end of Style for the second and the fourth section of the home page "training" and "recipes" */
 
 /* style for the third section of the home page "calculator" */
-.calc {
+#calc {
     background: URL("./images/FIRST-PAGE2.png") no-repeat;
     background-size: 100% 100%;
     padding: 70px;
@@ -289,15 +290,15 @@ nav .bar a:hover {
     color: #fff;
 }
 
-.calc span {
+#calc span {
     color: #e31d3b;
 }
 
-.calc p {
+#calc p {
     color: white;
 }
 
-.calc-button button {
+#calc-button button {
 
     margin-left: 30px;
     background-color: #e31d3b;
@@ -312,14 +313,20 @@ nav .bar a:hover {
 
 }
 
-.calc-button {
+#calc-button {
     display: flex;
     justify-content: center;
 }
 
-.calc .check {
+#calc .check {
     fill: #e31d3b;
 }
+
+#calc-button a:active,#training-button a:active,#recipes-button a:active{color: white; text-decoration: none;}
+#calc-button a:link,#training-button a:link,#recipes-button a:link{color: white; text-decoration: none;}
+#calc-button a:hover,#training-button a:hover,#recipes-button a:hover{color: white; text-decoration:underline;}
+#calc-button a:visited,#training-button a:visited,#recipes-button a:visited{color: white; text-decoration:underline;}
+
 
 /* end of style for the third section of the home page "calculator" */
 
@@ -338,7 +345,7 @@ nav .bar a:hover {
     padding: 34px;
 }
 
-.all {
+#all {
     background-color: #e31d3b;
     display: flex;
     justify-content: center;
@@ -368,9 +375,9 @@ nav .bar a:hover {
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid grey;
     border-radius: 4px;
-    box-sizing: border-box;
+   
 }
 
 #register form .input-box {
@@ -378,11 +385,11 @@ nav .bar a:hover {
     margin: 18px 0;
 }
 
-.submit {
+#submit {
     display: flex;
 }
 
-.submit input {
+#submit input {
     background-color: #1c1c1c;
     color: white;
     font-weight: bold;
@@ -396,6 +403,7 @@ nav .bar a:hover {
 
 /* end of style for the registration form section */
 /*end of style for the home page*/
+
 
 
 /* start for styling for the training page */
