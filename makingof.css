@@ -1,3 +1,610 @@
+/* Home Page*/
+*{
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Add this to your CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+/* font of the website */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* general style for the page */
+    .home p{
+        font-size: 25px;
+    }
+    
+    .scroll-button{
+        display: flex;
+        justify-content: center;
+        
+    }
+/* style for the navigation bar */
+
+nav {
+    background-color: #1c1c1c;
+    justify-content: center;
+    display: flex;
+}
+
+.x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.x h1 {
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+.x img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 60px;
+}
+
+nav h1 {
+    padding: 10px;
+}
+
+nav ul {
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li {
+
+    height: 50px;
+
+}
+
+.bar-manu a {
+    color: white;
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav .bar {
+    margin-right: 2%;
+}
+
+nav .bar a:hover {
+    background-color: #3b60ff;
+    color: white;
+    border-radius: 3px;
+}
+
+
+/* End for style for navigation bar */
+
+
+/* Style for the first section of the home page "Brief" */
+.brief{
+    background:URL("./images/FIRST-PAGE1.png") no-repeat; background-size: 100% 100%;
+    
+    padding: 100px;
+   
+    padding-bottom: 0;
+   
+
+}
+
+.brief h1{
+    color: black;
+    font-size: 50px;
+}
+
+.brief h2{
+    margin-top: 20px ;
+    color: black;
+}
+
+.brief p{
+    letter-spacing: 2px;
+    margin-top: 70px;
+    color: black;
+    line-height: 40px;
+    font-weight: bold;
+}
+.brief span{
+    color: 3b60ff;
+    font-weight: bolder;
+}
+
+.brief button{
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #3b60ff;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.brief a{
+    color: white;
+    text-decoration: none;
+}
+.brief a:visited {
+   text-decoration: none;
+  }
+
+  /*End of style for the first section of the home page "Brief" */
+
+
+  /* Style for the secind and the fourth section of the home page "training" and "recipes" */
+
+  .training-container, .recipes-container {
+    display: flex;
+}
+.training , .recipes {
+    padding: 70px;
+    background-color: #1c1c1c;
+    width: 70%;
+    color: white;
+    padding-bottom: 0;
+    
+
+
+}
+.training-img {
+    background: url("./images/FIRST-PAGE4.png") no-repeat;background-size: 100% 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.recipes-img {
+    background: url("./images/FIRST-PAGE5.jpg") no-repeat;background-size: 100% 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.training h1{
+    color:white;
+}
+.training p {
+
+    letter-spacing: 2px;
+    margin-top: 50px;
+    color: White;
+    line-height: 40px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.recipes p, .calc p{
+    letter-spacing: 2px;
+    margin-top: 70px;
+    color: white;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+
+
+.training span, .recipes span{
+    color: #3b60ff;
+}
+
+.training h2{
+    margin-top: 70px;
+    
+    padding-bottom: 10px;
+}
+.training li,.calc li{
+
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.training .check{
+    fill: #3b60ff;
+}
+.training-img button , .recipes-img button{
+    
+    background-color: #3b60ff;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 90%;
+}
+.training-button , .recipes-button{
+    margin: 0 auto;
+    margin-top: 90%;
+ }
+ .training-img .scroll-button , .recipes-img .scroll-button{
+     margin:0 auto;
+    
+ }
+
+ /* end of Style for the secind and the fourth section of the home page "training" and "recipes" */
+
+/* style for the third section of the home page "calculator" */
+.calc{
+    background:URL("./images/FIRST-PAGE2.png") no-repeat; background-size: 100% 100%;
+    padding: 70px;
+    padding-bottom: 0;
+}
+
+.calc span{
+    color: white;
+}
+.calc p{
+    color: black;
+}
+
+.calc-button button{
+  
+    margin-left: 30px;
+    background-color: #1c1c1c;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+
+}
+.calc-button{
+    display: flex;
+    justify-content: center;
+}
+.calc .check{
+    fill: white;
+}
+/* end of style for the third section of the home page "calculator" */
+
+
+
+/*style for the registration form section */
+#register{
+    
+        color: black;
+        position: relative;
+        max-width: 600px;
+        max-height: 600;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        padding: 34px;
+}
+
+.all{
+    background-color: #3b60ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+
+}
+#RegisterForm{
+padding-left: 2em;
+
+}
+#register-h1{
+    display: flex;
+    justify-content: center;
+}
+#register form{
+    margin-top: 100px;
+}
+.inpt{
+    display: flex;
+    align-items: center;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#register form .input-box{
+    height: 70px;
+    margin: 18px 0;
+  }
+
+  .submit{
+    display: flex;
+  }
+
+  .submit input{
+    background-color: #1c1c1c;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 220px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+  }
+
+  /* end of style for the registration form section */
+  /*end of style for the home page*/
+
+
+  /* start for styling for the training page */
+
+.welcome {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 3%;
+}
+.welcome h1{
+    padding-bottom: 3%;
+   
+}
+.welcome p{
+  font-size: 1.5em;
+  line-height: 1.5;
+padding-bottom: 3%;
+}
+
+
+/*style for the "pilates" section */
+.pilates{
+  
+    background: url("./images/pilates2.jpg") no-repeat ; background-size: cover; max-width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+    
+
+}
+.pilates h1,.cardio h1,.strength h1{
+    font-size: 40px;
+}
+.pilates p,.cardio p,.strength p{
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: balck;
+    line-height: 30px;
+    font-weight: bold;
+    
+
+}
+#pilates-hide,#cardio-hide,#strength-hide{
+
+    max-height: 0;
+    overflow: hidden;
+   
+}
+
+.coloumn{
+    width: 30%;
+    padding: 1%;
+    float: left;
+}
+.my-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*style for the cardio section */
+
+.cardio{
+    background:url(./images/cardio.png) no-repeat ; 
+    margin-top: 2%;
+    background-size: cover; max-width: 100%;
+    padding: 2%;
+ /*style for the strength section */
+}
+.strength{
+
+    background:url(./images/strength2.jpg) no-repeat ;background-size: cover; max-width: 100%;
+    margin-top: 2%;
+    padding: 2%;
+ 
+}
+
+/*end of styling for the training page*/
+
+
+/*  The start of footer  */
+
+
+
+.footerContainer {
+    background-color: #1c1c1c;
+   
+    text-align: center ;
+    padding:1.75% 3%;
+    margin-top: 1%;
+    
+}
+
+.footerContainer .leftSection, .footerContainer .middleSection, .footerContainer .rightSection {
+    display: inline-block;
+    vertical-align: top;
+  
+    
+}
+
+/* Footer left */
+
+.footerContainer .leftSection {
+    width: 35%;
+  text-align: left;
+}
+
+.footerContainer h3 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+
+}
+
+
+
+/* Footer links */
+
+.footerContainer .links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.footerContainer .links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+
+
+.footerContainer .copyright {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.footerContainer .links a:hover {
+
+    color: #3b60ff;
+}
+
+
+
+
+
+
+/* Footer Center */
+
+.footerContainer .middleSection {
+    width: 34%;
+   text-align: center;
+}
+
+
+
+.midlleIcons{
+    float: left ;
+    width:40px;
+    height: 40px; }
+
+.footerContainer .middleSection p  {
+    display: inline-block;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+   
+}
+
+
+
+.footerContainer .middleSection p a {
+    color: #ffffff;
+    text-decoration: none;
+     font-size:  16px;
+    line-height:48px;
+}
+
+.footerContainer .middleSection p a:hover {
+    color: #3b60ff;
+    text-decoration: none;
+    
+}
+
+
+
+.footerContainer .middleSection div, h3  {
+
+    text-align: left;
+   
+}
+/* Footer Right */
+
+.footerContainer .rightSection {
+    width: 20%;
+    text-align: left;
+}
+
+
+
+
+.footerContainer .rightIcons {
+    margin-top: 25px;
+    text-align: left;
+
+   
+}
+
+.footerContainer .rightIcons a {
+    display: inline-block;
+    background-color: #33383b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footerContainer .rightIcons a:hover {
+    background-color: #3F71EA;
+}
+
+.footerContainer .rightIcons .iconImg {
+    width: 35px; 
+    height: 35px; 
+}
+
+@media (max-width: 880px) {
+    .footerContainer .leftSection, .footerContainer .middleSection, .footerContainer .rightSection {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        
+    }
+}
+   
+  
+
+
+
+/* The end of Footer */
+
 /* Making of */
 #makin {
     font-weight: bold;
