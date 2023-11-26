@@ -69,42 +69,39 @@ nav .bar a:hover {
 /*  The start of recipes page */
 
 
-.recpage
-{
- font-family: calibri ;
-     margin:0;
-    
+.recpage {
+    font-family: calibri;
+    margin: 0;
+
 }
-.recpage *
-{   
+
+.recpage * {
     box-sizing: border-box;
 }
 
-.recintro
-{
- font-size:2em;
- padding: 2rem;
-    
-}
-.recintro p
-{
- font-size:0.70em;
-font-weight: lighter;
+.recintro {
+    font-size: 2em;
+    padding: 2rem;
 
-    
 }
 
-.meal
-{
-    padding:  1.5rem;   
-    
-     
-}
-.meal h1
-{
+.recintro p {
+    font-size: 0.70em;
+    font-weight: lighter;
 
-   padding:3rem 5rem;
-  
+
+}
+
+.meal {
+    padding: 1.5rem;
+
+
+}
+
+.meal h1 {
+
+    padding: 3rem 5rem;
+
 
 
 
@@ -112,100 +109,94 @@ font-weight: lighter;
 }
 
 
-.cardContainer{
+.cardContainer {
     display: grid;
-	 grid-template-columns: repeat(auto-fit, 17em);
-	 grid-column-gap: 20em;
-     grid-row-gap: 5em;
+    grid-template-columns: repeat(auto-fit, 17em);
+    grid-column-gap: 20em;
+    grid-row-gap: 5em;
     justify-content: center;
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
 
-    
-    
+
+
 }
 
 .card {
-    background-color:#527273;
+    background-color: #527273;
     width: 200%;
     height: 24em;
     position: relative;
-  
- 
-    
-  
+
+
+
+
 }
 
-.card:hover
-{
-     border: 4px solid #272829;
+.card:hover {
+    border: 4px solid #272829;
     cursor: pointer;
-    
+
 }
 
 
-.recImg 
-{
-    width: 50%; 
+.recImg {
+    width: 50%;
     height: 100%;
-  
-    
-    
+
+
+
 }
 
 
 
- 
 
-.cardContent
-{
-    float:right;
+
+.cardContent {
+    float: right;
     width: 50%
-       
 }
+
 .recTitle {
 
     margin: 0;
     display: block;
     padding: 1rem;
-   background:#395051;
+    background: #395051;
     height: 18%
-       
-    
-    
 }
-.recTitle h2{
-  margin:0;
-  font-size:1.5rem;
- font-weight: bold;
-   color:white;  
-    
+
+.recTitle h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+
 }
-.recTitle p{
-  margin:0;
-  font-size:.80rem;
+
+.recTitle p {
+    margin: 0;
+    font-size: .80rem;
     text-align: left;
-    line-height:1.5rem;
-     color:#efb710;
+    line-height: 1.5rem;
+    color: #efb710;
 }
 
 
 
-.recInfo 
-{
- padding: 0.99rem;
-font-size:0.95rem;
-    color:white;
-    
+.recInfo {
+    padding: 0.99rem;
+    font-size: 0.95rem;
+    color: white;
+
 
 }
-  
 
 
-.recInfo ul 
-{
-	padding: inherit;
+
+.recInfo ul {
+    padding: inherit;
     margin: 0;
     text-align: justify;
     padding: 1rem;
@@ -222,24 +213,26 @@ font-size:0.95rem;
 .footerContainer {
     background-color: #1c1c1c;
     width: 100%;
-    text-align: center ;
-    padding:1.75% 3%;
+    text-align: center;
+    padding: 1.75% 3%;
     margin-top: 1%;
-    
+
 }
 
-.footerContainer .leftSection, .footerContainer .middleSection, .footerContainer .rightSection {
+.footerContainer .leftSection,
+.footerContainer .middleSection,
+.footerContainer .rightSection {
     display: inline-block;
     vertical-align: top;
-  
-    
+
+
 }
 
 /* Footer left */
 
 .footerContainer .leftSection {
     width: 35%;
-  text-align: left;
+    text-align: left;
 }
 
 .footerContainer h3 {
@@ -293,22 +286,23 @@ font-size:0.95rem;
 
 .footerContainer .middleSection {
     width: 34%;
-   text-align: center;
+    text-align: center;
 }
 
 
 
-.midlleIcons{
-    float: left ;
-    width:40px;
-    height: 40px; }
+.midlleIcons {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
 
-.footerContainer .middleSection p  {
+.footerContainer .middleSection p {
     display: inline-block;
     color: #ffffff;
     margin: 0;
     text-align: center;
-   
+
 }
 
 
@@ -316,23 +310,25 @@ font-size:0.95rem;
 .footerContainer .middleSection p a {
     color: #ffffff;
     text-decoration: none;
-     font-size:  16px;
-    line-height:48px;
+    font-size: 16px;
+    line-height: 48px;
 }
 
 .footerContainer .middleSection p a:hover {
     color: #3b60ff;
     text-decoration: none;
-    
+
 }
 
 
 
-.footerContainer .middleSection div, h3  {
+.footerContainer .middleSection div,
+h3 {
 
     text-align: left;
-   
+
 }
+
 /* Footer Right */
 
 .footerContainer .rightSection {
@@ -347,7 +343,7 @@ font-size:0.95rem;
     margin-top: 25px;
     text-align: left;
 
-   
+
 }
 
 .footerContainer .rightIcons a {
@@ -365,25 +361,8 @@ font-size:0.95rem;
 }
 
 .footerContainer .rightIcons .iconImg {
-    width: 35px; 
-    height: 35px; 
+    width: 35px;
+    height: 35px;
 }
 
-@media (max-width: 880px) {
-    .footerContainer .leftSection, .footerContainer .middleSection, .footerContainer .rightSection {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        
-    }
-   
-  
-
-
-
 /* The end of Footer */
-
-
-
-
-

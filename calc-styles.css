@@ -5,17 +5,12 @@
     scroll-behavior: smooth;
 }
 
-/* Add this to your CSS file */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-
-/* Use the Roboto font in your styles */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav {
-    background-color: #37b8d2;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    background-color: #d2374e;
     justify-content: center;
     display: flex;
     height: 12%;
@@ -55,12 +50,11 @@ nav ul {
 }
 
 nav li {
-
     height: 50px;
-
+    font-size: 1.4em;
 }
 
-nav .bar .hideformobile a {
+nav .bar a {
     color: white;
     height: 100%;
     padding: 0 30px;
@@ -76,431 +70,10 @@ nav .bar {
 
 nav .bar a:hover {
     background-color: #ffffff;
-    color: #37b8d2;
+    color: #d2374e;
     border-radius: 3px;
 }
 
-.sidebar {
-
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 400px;
-    z-index: 999;
-    background-color: white;
-    box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.1);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-}
-
-.sidebar li {
-
-    width: 100%;
-    font-size: 30px;
-    padding: 30px;
-    color: black;
-
-
-}
-
-.sidebar a {
-    text-decoration: none;
-}
-
-.sidebar a:visited {
-    text-decoration: none;
-}
-
-.sidebar li a:visited {
-    text-decoration: none;
-}
-
-
-
-.brief {
-    background-color: white;
-
-    padding: 100px;
-
-    padding-bottom: 0;
-
-
-}
-
-.brief h1 {
-    color: black;
-    font-size: 50px;
-}
-
-.brief h2 {
-    margin-top: 20px;
-    color: black;
-}
-
-.brief p {
-    letter-spacing: 2px;
-    margin-top: 70px;
-    color: black;
-    line-height: 40px;
-    font-weight: bold;
-}
-
-.brief span {
-    color: 3b60ff;
-    font-weight: bolder;
-}
-
-.brief button {
-    margin-top: 50px;
-    margin-left: 30px;
-    background-color: 3b60ff;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    width: 200px;
-    height: 60px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-}
-
-.brief a {
-    color: white;
-    text-decoration: none;
-}
-
-.brief a:visited {
-    text-decoration: none;
-}
-
-.training {
-    background-color: #1c1c1c;
-    padding: 70px;
-    color: white;
-    padding-bottom: 0;
-
-
-
-}
-
-.training h1 {
-    color: white;
-}
-
-.training p {
-
-    letter-spacing: 2px;
-    margin-top: 50px;
-    color: White;
-    line-height: 40px;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
-
-.training span {
-    color: #3b60ff;
-}
-
-.training h2 {
-    margin-top: 70px;
-
-    padding-bottom: 10px;
-}
-
-.training li,
-.calc li {
-
-    font-size: 20px;
-    padding: 10px;
-    margin-left: 30px;
-    list-style: none;
-}
-
-.training .check {
-    fill: #3b60ff;
-}
-
-.training button {
-    margin-top: 30px;
-    margin-left: 30px;
-    background-color: 3b60ff;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    width: 220px;
-    height: 60px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-}
-
-.training-button {
-    display: flex;
-    justify-content: center;
-}
-
-.calc {
-
-
-    background-color: #3b60ff;
-    padding: 70px;
-    padding-bottom: 0;
-}
-
-.calc span {
-    color: white;
-}
-
-.calc p {
-    letter-spacing: 2px;
-    margin-top: 70px;
-    color: black;
-    line-height: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-
-}
-
-.calc-button button {
-
-    margin-left: 30px;
-    background-color: #1c1c1c;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    width: 220px;
-    height: 60px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-
-}
-
-.calc-button {
-    display: flex;
-    justify-content: center;
-}
-
-.calc .check {
-    fill: white;
-}
-
-.recipes {
-
-    background-color: #1c1c1c;
-    padding: 70px;
-    color: white;
-}
-
-.recipes p {
-    letter-spacing: 2px;
-    margin-top: 70px;
-    color: white;
-    line-height: 40px;
-    font-weight: bold;
-    margin-bottom: 50px;
-
-}
-
-.recipes span {
-    color: #3b60ff;
-}
-
-.recipes-button button {
-    margin-top: 30px;
-    margin-left: 30px;
-    background-color: #3b60ff;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    width: 220px;
-    height: 60px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-
-}
-
-.recipes-button {
-    display: flex;
-    justify-content: center;
-}
-
-#register {
-
-    color: black;
-
-    position: relative;
-    max-width: 600px;
-    max-height: 600;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    padding: 34px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-
-
-}
-
-.all {
-    background-color: #3b60ff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 750px;
-
-}
-
-#interestForm {
-    padding-left: 2em;
-
-}
-
-#register-h1 {
-    display: flex;
-    justify-content: center;
-}
-
-#register form {
-    margin-top: 100px;
-}
-
-.inp {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-
-
-}
-
-#register form .input-box {
-    height: 70px;
-    margin: 18px 0;
-}
-
-.submit {
-    display: flex;
-
-
-}
-
-.submit input {
-
-
-    background-color: #1c1c1c;
-    color: white;
-    font-weight: bold;
-    letter-spacing: 2px;
-    width: 220px;
-    height: 60px;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-}
-
-.home p {
-    font-size: 25px;
-}
-
-.scroll-button {
-    display: flex;
-    justify-content: center;
-
-}
-
-.pilates {
-
-    background: url(./pilates.jpg) no-repeat;
-    size: 100% 100%;
-    padding: 2%;
-
-
-}
-
-.pilates h1 {
-    font-size: 60px;
-}
-
-.pilates p,
-.cardio p {
-    letter-spacing: 2px;
-    margin-top: 10px;
-    color: balck;
-    line-height: 40px;
-    font-weight: bold;
-
-
-}
-
-#pilates-hide,
-#cardio-hide {
-
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 2s ease-in-out;
-}
-
-.coloumn {
-    width: 30%;
-    padding: 1%;
-    float: left;
-}
-
-.my-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.cardio {
-    margin-top: 2%;
-
-
-    padding: 2%;
-
-}
-
-@media (max-width:1000px) {
-    .hideformobile {
-
-        display: none;
-
-
-    }
-
-    .sidebar nav {
-        height: 200px;
-    }
-
-    #calculator {
-        text-align: center;
-    }
-
-    .cal-input {
-        text-align: center;
-    }
-}
-
-
-
-
-@media (min-width: 1001px) {
-    .hideforpc {
-        display: none;
-    }
-
-
-}
 
 /* Calculator page*/
 
@@ -557,7 +130,7 @@ label {
 }
 
 button {
-    background-color: #3b60ff;
+    background-color: #d2374e;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -609,26 +182,10 @@ th {
 
 
 
-
-/* The start of Footer */
-/* The footer is fixed to the bottom of the page */
-
-@media (max-height:400px) {
-    footer {
-        position: static;
-
-    }
-
-
-
-}
-
+/* footer */
 .footerContainer {
     background-color: #1c1c1c;
-    box-sizing: border-box;
-    width: 100%;
     text-align: center;
-    font: 16px;
     padding: 1.75% 3%;
     margin-top: 1%;
 
@@ -652,7 +209,7 @@ th {
 
 .footerContainer h3 {
     color: #ffffff;
-    font: normal 36px;
+    font-size: 40px;
     margin: 0;
     text-align: left;
 
@@ -673,7 +230,7 @@ th {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
-    color: inherit;
+    color: white;
     text-align: left;
 }
 
@@ -689,7 +246,7 @@ th {
 
 .footerContainer .links a:hover {
 
-    color: #37b8d2;
+    color: #d2374e;
 }
 
 
@@ -704,25 +261,17 @@ th {
     text-align: center;
 }
 
-.footerContainer .middleSection i {
-
-    color: #ffffff;
-    font-size: 22px;
-    width: 38px;
-    height: 38px;
-    text-align: center;
-    line-height: 42px;
-    margin: 10px 15px;
-    vertical-align: middle;
 
 
+.midlleIcons {
+    float: left;
+    width: 40px;
+    height: 40px;
 }
-
 
 .footerContainer .middleSection p {
     display: inline-block;
     color: #ffffff;
-    vertical-align: middle;
     margin: 0;
     text-align: center;
 
@@ -733,13 +282,14 @@ th {
 .footerContainer .middleSection p a {
     color: #ffffff;
     text-decoration: none;
-    font: 16px sans-serif;
+    font-size: 16px;
+    line-height: 48px;
 }
 
 .footerContainer .middleSection p a:hover {
-    color: #37b8d2;
+    color: #d2374e;
     text-decoration: none;
-    ;
+
 }
 
 
@@ -761,56 +311,30 @@ h3 {
 
 
 
-.footerContainer .icons {
+.footerContainer .rightIcons {
     margin-top: 25px;
     text-align: left;
+
+
 }
 
-.footerContainer .icons a {
+.footerContainer .rightIcons a {
     display: inline-block;
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
     background-color: #33383b;
     border-radius: 50%;
-    font-size: 20px;
-    color: #ffffff;
     text-align: center;
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
 }
 
-.footerContainer .icons a:hover {
-    background-color: #37b8d2;
+.footerContainer .rightIcons a:hover {
+    background-color: #d2374e;
 }
 
-.footerContainer .fa-brands.fa-instagram,
-.footerContainer .fa-brands.fa-x-twitter,
-.footerContainer .fa-brands.fa-facebook,
-.footerContainer .fa-brands.fa-tiktok {
-    font-size: 22px;
-    line-height: 38px;
+.footerContainer .rightIcons .iconImg {
+    width: 35px;
+    height: 35px;
 }
 
-
-
-@media (max-width: 880px) {
-
-    .footerContainer .leftSection,
-    .footerContainer .middleSection,
-    .footerContainer .rightSection {
-        display: block;
-        width: 100%;
-        margin-bottom: 40px;
-        text-align: center;
-    }
-
-    .footerContainer .middleSection i {
-        margin-left: 0;
-    }
-}
-
-
-
-/* The end of Footer */
+/* End footer */
