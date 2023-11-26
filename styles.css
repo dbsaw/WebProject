@@ -1,56 +1,28 @@
-/* Home Page*/
-* {
-
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
-
-/* Add this to your CSS file */
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap'); */
-
-/* font of the website */
-body {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-/* general style for the page */
-.home p {
-    font-size: 25px;
-}
-
-.scroll-button {
-    display: flex;
-    justify-content: center;
-
-}
-
-/* style for the navigation bar */
-
+/*header*/
 nav {
     background-color: #d2374e;
     justify-content: center;
     display: flex;
+    height: 12%;
 }
 
-.x {
+#logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 50px;
 }
 
-.x h1 {
+#logo h1 {
     font-size: 50px;
     padding-top: 10px;
     color: white;
 }
 
-.x img {
+#logo img {
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 60px;
+    width: 20%;
 }
 
 nav h1 {
@@ -68,32 +40,55 @@ nav ul {
 }
 
 nav li {
-
     height: 50px;
-
+    font-size: 1.4em;
 }
 
-.bar-manu a {
+nav #bar a {
     color: white;
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
     display: flex;
     align-items: center;
+
 }
 
-nav .bar {
+nav #bar {
     margin-right: 2%;
 }
 
-nav .bar a:hover {
-    background-color: white;
-    color: #e31d3b;
+nav #bar a:hover {
+    background-color: #ffffff;
+    color: #d2374e;
     border-radius: 3px;
 }
 
 
-/* End for style for navigation bar */
+* {
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* Home Page*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* general style for the page */
+#home p {
+    font-size: 25px;
+}
+
+.scroll-button {
+    display: flex;
+    justify-content: center;
+
+}
+
+
 
 
 /* Style for the first section of the home page "Brief" */
