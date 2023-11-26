@@ -3,28 +3,60 @@
 
     
     <link rel="stylesheet" typr="text/css" href="styles.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	
 </head>
 <body class="home">
-<nav>
+
+   <!-- The start of Header and Navegation -->
+    
+    
+    <nav >
     <div class ="x">
-    <img src="./images/logo.png">
+    <img src="logo.png">
     <h1>FitZone</h1>
 </div>
-    
+    <ul class="sidebar">
+        <li><a onclick=closesidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Calories Calculator</a></li>
+        <li><a href="#">training</a></li>
+        <li><a href="#">recipes</a></li>
+        <li><a href="#">Making of Website</a></li>
+        <li><a href="#">About Us</a></li>
+      
+    </ul>
 
 <ul class="bar">
-    <li class="bar-manu"><a href="#">Home</a></li>
-    <li class="bar-manu"><a href="#">Calories Calculator</a></li>
-    <li class="bar-manu"><a href="#">training</a></li>
-    <li class="bar-manu"><a href="#">recipes</a></li>
-    <li class="bar-manu"><a href="#">Making of Website</a></li>
-    <li class="bar-manu"><a href="#">About Us</a></li>
-   
+    <li class="hideformobile"><a href="#">Home</a></li>
+    <li class="hideformobile"><a href="#">Calories Calculator</a></li>
+    <li class="hideformobile"><a href="#">training</a></li>
+    <li class="hideformobile"><a href="#">recipes</a></li>
+    <li class="hideformobile"><a href="#">Making of Website</a></li>
+    <li class="hideformobile"><a href="#">About Us</a></li>
+    <li><a class="hideforpc" onclick=showsidebar() href="#"><svg xmlns="http://www.w3.org/2000/svg" height="70" viewBox="0 -960 960 960" width="70"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
 </ul>
 </nav>
-<p id="makin">Making of the website</p>
+
+<script>
+function showsidebar(){
+const sidebar = document.querySelector('.sidebar')
+sidebar.style.display='flex'
+
+
+}
+
+function closesidebar(){
+
+    const sidebar = document.querySelector('.sidebar')
+sidebar.style.display='none'
+}
+
+
+</script>
+       
+<!-- The end of Header and Navegation -->
+ <p id="makin">Making of the website</p>
  <div id="makingcontainer">
     <h1 id="desgn">Website Desgin</h1> 
     <p id="pdq1">The design and the choice of colors for the website has a big impact on the delivered content. It made the pages aesthetically pleasing and easily navigable.
@@ -38,7 +70,7 @@
     </p>
 </div>
 <h1 id="mock-ups">Mock-ups</h1>
-    <img id="mockp1" src="images/mock1.png">
+    <img id="mockp1" src="imaages/mock1.png">
     <div id="mockq1">
         <span>Home page</span>
         <p>The header had our website title in the middle of it, and a toggle menu in the top left of the header which allowes you to navigate between the website pages easily when you click it. the main content of the website was shown in the beggining of the page, followed by the user comments and then the services our website provide and the ways to contact us in the footer. </p>
@@ -75,70 +107,72 @@
     </div>
 <!-- The start of Footer -->
 
-<footer class="footerContainer">
+   <footer class="footerContainer">
 
-    <div class="leftSection">
-             <h3>Support</h3> 
-        <p class="links">
-         <a href="#">FAQ</a>
-         |
-         <a href="#">Privacy Policy</a>
-         |
-         <a href="#">Help
+       <div class="leftSection">
+                <h3>Support</h3> 
+           <p class="links">
+            <a href="#">FAQ</a>
+            |
+            <a href="#">Privacy Policy</a>
+            |
+            <a href="#">Help
 
-         </a>
-        
-     </p>
-
-     <p class="copyright">Copyright © 2023 <strong>FitZone</strong> All rights reserved</p>
-     
-     
-        </div>
-     
-     
-
-     <div class="middleSection">
-         <h3>Contact Us</h3>
-         
-         <div>
-         
-        
-             
-               <p><img  class="midlleIcons"src="images/mail.png" ><a href="#">FitZone@gmail.com</a></p>
-         </div>
-
-         <div>
-             
-             <p><img  class="midlleIcons"src="images/phone.png" ><a href="#">+973 33415864</a></p>
-         </div>
-         <div>
-             
-             <p><img  class="midlleIcons"src="images/location.png" ><a href="#">Manama, Bahrain</a></p>
-         </div>
-         
-        
-     </div>
-       
-     <div class="rightSection">
-         
+            </a>
            
-         <h3>Follow Us</h3>
-            
-         
-         <div class="rightIcons">
-             <a href="#" ><img class="iconImg"  src="images/instgram.png" ></a>
-             <a href="#"><img class="iconImg"  src="images/facebook.png" > </a>
-             <a href="#"><img  class="iconImg" src="images/X.png" ></a>
-             <a href="#"><img  class="iconImg" src="images/tiktok.png" ></a>
-             
-         </div>
-     </div>
- </footer>
-  
-  
- 
- 
+        </p>
 
-<!-- The end of Footer -->
+        <p class="copyright">Copyright © 2023 <strong>FitZone</strong> All rights reserved</p>
+        
+        
+           </div>
+        
+        
+
+        <div class="middleSection">
+            <h3>Contact Us</h3>
+            
+            <div>
+			
+           
+                <i class="fa-solid fa-envelope"></i>
+                  <p> <a href="#">FitZone@gmail.com</a></p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <p><a href="#">+973 33415864</a></p>
+            </div>
+            <div>
+                <i class="fa-solid fa-location-dot"></i>
+                <p><a href="#">Manama, Bahrain</a></p>
+            </div>
+            
+           
+        </div>
+          
+        <div class="rightSection">
+            
+              
+            <h3>Follow Us</h3>
+               
+            
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-instagram "></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                
+            </div>
+        </div>
+    </footer>
+    
+     
+    
+    
+
+  <!-- The end of Footer -->   
+
 </body>
+
 </html>
