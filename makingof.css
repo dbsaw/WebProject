@@ -1,0 +1,184 @@
+
+/* Making of */
+#makin {
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#mocks {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+#mockz {
+    margin-left: 40px;
+    width: 50%;
+}
+
+#rigmock {
+    float: right;
+    width: 46%;
+}
+
+#desgn {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+
+#pdq1 {
+    font-size: 28px;
+    margin-left: 10px;
+    color: black;
+    margin-right: 10px;
+}
+
+
+
+#makingcontainer {
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 1300px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#mock-ups {
+    margin-top: 4
+    0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#mockp1 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#mockq1 {
+    
+    margin-right: 90px;
+    margin-top: 50px;
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 880px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+}
+
+#mockq1 span {
+    font-size: 30px;
+}
+
+#mockp2 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#mockq2 {
+    
+    margin-right: 90px;
+    margin-top: 50px;
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 880px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+}
+
+#mockq2 span {
+    font-size: 30px;
+}
+
+#mockp3 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#mockq3 {
+    
+    margin-right: 90px;
+    margin-top: 50px;
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 880px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+}
+
+#mockq3 span {
+    font-size: 30px;
+}
+
+#mockp4 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#mockq4 {
+    
+    margin-right: 90px;
+    margin-top: 50px;
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 880px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+}
+
+#mockq4 span {
+    font-size: 30px;
+}
+
+#mockp5 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#mockq5 {
+    
+    margin-right: 90px;
+    margin-top: 50px;
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 880px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+}
+
+#mockq5 span {
+    font-size: 30px;
+}
+
+#mockp6 {
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+#mockq6 {
+    
+    margin-right: 90px;
+    margin-top: 50px;
+    background-color: lightgray;
+  padding: 20px;
+  max-width: 880px;
+  text-align: center;
+  border-radius: 10px;
+  float: right;
+}
+
+#mockq6 span {
+    font-size: 30px;
+}
