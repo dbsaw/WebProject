@@ -99,12 +99,8 @@ nav .bar a:hover {
 /* Style for the first section of the home page "Brief" */
 .brief {
 
-<<<<<<< HEAD
 
     background: URL("images/Asset-22.png") no-repeat;
-=======
-    background: URL("./images/Asset-22.png") no-repeat;
->>>>>>> 961b8f9fffb99a7f50737ec0f119d88783c1d8e1
     background-size: 100% 100%;
     padding: 100px;
 
