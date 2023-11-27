@@ -2,11 +2,7 @@
 
 <head>
     <link rel="stylesheet" typr="text/css" href="calc-styles.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js">
-
     </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
@@ -17,26 +13,37 @@
     <!-- The start of Header and Navegation -->
 
     <nav>
-        <div class="x">
+        <div id="logo">
             <img src="images/Asset 1@4x.png" />
             <h1>FitZone</h1>
         </div>
 
-        <ul class="bar">
-            <li class="hideformobile"><a href="index.html">Home</a></li>
-            <li class="hideformobile"><a href="#">Calories Calculator</a></li>
-            <li class="hideformobile"><a href="#">Training</a></li>
-            <li class="hideformobile"><a href="#">Recipes</a></li>
-            <li class="hideformobile"><a href="#">Making of Website</a></li>
-            <li class="hideformobile"><a href="#">About Us</a></li>
-            <li>
+        <ul id="bar">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="calculator.html">Calories Calculator</a></li>
+            <li><a href="training.html">Training</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="making-of.html">Making of Website</a></li>
+            <li><a href="our-story.html">Our Story</a></li>
         </ul>
     </nav>
-    <!-- The end of Header and Navegation -->
 
+    <!-- The end of Header and Navegation -->
+    <div id="welcome">
+        <h1>Welcom to our Calorie Calculator</h1>
+        <p>
+            Discover your daily caloric needs with our user-friendly Calorie Calculator. Input your weight, height,
+            and
+            age, click "Calculate Calories," and receive a quick estimate tailored to your body. Leverage this
+            information to enhance your health and fitness goals effortlessly. Start your journey to a healthier you
+            try our Calorie Calculator now!
+        </p>
+        <button><a href="#CALA">Calorie Calculator</a></button>
+    </div>
     <!-- calculator -->
     <main>
         <div id="calculator">
+            <div id="CALA"></div>
             <h2>Calorie Calculator</h2>
             <p>This <b>Calorie Calculator</b> helps you determine your daily caloric needs based on your weight, height,
                 and
@@ -157,11 +164,11 @@
 
     <!-- The start of Footer -->
 
-    <footer class="footerContainer">
+    <footer id="footerContainer">
 
-        <div class="leftSection">
+        <div id="leftSection">
             <h3>Support</h3>
-            <p class="links">
+            <p id="links">
                 <a href="#">FAQ</a>
                 |
                 <a href="#">Privacy Policy</a>
@@ -172,14 +179,14 @@
 
             </p>
 
-            <p class="copyright">Copyright © 2023 <strong>FitZone</strong> All rights reserved</p>
+            <p id="copyright">Copyright © 2023 <strong>FitZone</strong> All rights reserved</p>
 
 
         </div>
 
 
 
-        <div class="middleSection">
+        <div id="middleSection">
             <h3>Contact Us</h3>
 
             <div>
@@ -201,18 +208,17 @@
 
         </div>
 
-        <div class="rightSection">
+        <div id="rightSection">
 
 
             <h3>Follow Us</h3>
 
 
-            <div class="rightIcons">
-                <a href="#"><img class="iconImg" src="images/instgram.png"></a>
+            <div id="rightIcons">
+                <a href="#"><img class="iconImg" src="images/Instgram.png"></a>
                 <a href="#"><img class="iconImg" src="images/facebook.png"> </a>
                 <a href="#"><img class="iconImg" src="images/X.png"></a>
                 <a href="#"><img class="iconImg" src="images/tiktok.png"></a>
-
             </div>
         </div>
     </footer>
