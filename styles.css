@@ -1,4 +1,4 @@
-
+/*header*/
 nav {
     background-color: #d2374e;
     justify-content: center;
@@ -41,17 +41,16 @@ nav ul {
 
 nav li {
     height: 50px;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 nav #bar a {
     color: white;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 15px;
     text-decoration: none;
     display: flex;
     align-items: center;
-
 }
 
 nav #bar {
@@ -64,25 +63,22 @@ nav #bar a:hover {
     border-radius: 3px;
 }
 
-/* Page content under here */
 
 
-/* Home Page*/
 * {
 
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
 }
-
-/* font of the website */
+/* Home Page*/
 body {
     font-family: 'Montserrat', sans-serif;
 }
 
 
 /* general style for the page */
-.home p {
+#home p {
     font-size: 25px;
 }
 
@@ -94,11 +90,14 @@ body {
 
 
 
+/* End for style for navigation bar */
+
+
 /* Style for the first section of the home page "Brief" */
 .brief {
+    /* background-color: #484545; */
 
-
-    background: URL("images/Asset-22.png") no-repeat;
+    background: URL("Asset-22.png") no-repeat;
     background-size: 100% 100%;
     padding: 100px;
 
@@ -164,8 +163,7 @@ body {
 
 /* Style for the secind and the fourth section of the home page "training" and "recipes" */
 
-.service-container,
-#recipes-container {
+.service-container {
     display: flex;
 }
 
@@ -320,33 +318,10 @@ body {
     fill: #e31d3b;
 }
 
-#calc-button a:active,
-#training-button a:active,
-#recipes-button a:active {
-    color: white;
-    text-decoration: none;
-}
-
-#calc-button a:link,
-#training-button a:link,
-#recipes-button a:link {
-    color: white;
-    text-decoration: none;
-}
-
-#calc-button a:hover,
-#training-button a:hover,
-#recipes-button a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-#calc-button a:visited,
-#training-button a:visited,
-#recipes-button a:visited {
-    color: white;
-    text-decoration: underline;
-}
+#calc-button a:active,#training-button a:active,#recipes-button a:active{color: white; text-decoration: none;}
+#calc-button a:link,#training-button a:link,#recipes-button a:link{color: white; text-decoration: none;}
+#calc-button a:hover,#training-button a:hover,#recipes-button a:hover{color: white; text-decoration:underline;}
+#calc-button a:visited,#training-button a:visited,#recipes-button a:visited{color: white; text-decoration:underline;}
 
 
 /* end of style for the third section of the home page "calculator" */
@@ -398,7 +373,7 @@ body {
     display: inline-block;
     border: 1px solid grey;
     border-radius: 4px;
-
+   
 }
 
 #register form .input-box {
@@ -522,42 +497,54 @@ body {
 /*end of styling for the training page*/
 
 
-/* Footer */
-#footerContainer {
+/*  The start of footer  */
+
+
+
+.footerContainer {
     background-color: #1c1c1c;
+
     text-align: center;
     padding: 1.75% 3%;
+
 }
 
-#leftSection,
-#middleSection,
-#rightSection {
+.footerContainer .leftSection,
+.footerContainer .middleSection,
+.footerContainer .rightSection {
     display: inline-block;
     vertical-align: top;
+
+
 }
 
 /* Footer left */
-#leftSection {
+
+.footerContainer .leftSection {
     width: 35%;
     text-align: left;
 }
 
-#footerContainer h3 {
+.footerContainer h3 {
     color: #ffffff;
     font-size: 40px;
     margin: 0;
     text-align: left;
+
 }
 
+
+
 /* Footer links */
-#links {
+
+.footerContainer .links {
     color: #ffffff;
     margin: 20px 0 12px;
     font-size: 16px;
     text-align: left;
 }
 
-#links a {
+.footerContainer .links a {
     display: inline-block;
     line-height: 1.8;
     text-decoration: none;
@@ -565,7 +552,9 @@ body {
     text-align: left;
 }
 
-#copyright {
+
+
+.footerContainer .copyright {
     color: #8f9296;
     font-size: 14px;
     font-weight: normal;
@@ -573,68 +562,81 @@ body {
     text-align: left;
 }
 
-#links a:hover {
-    color: #d2374e;
+.footerContainer .links a:hover {
+
+    color: #e31d3b;
 }
 
+
+
+
+
+
 /* Footer Center */
-#middleSection {
+
+.footerContainer .middleSection {
     width: 34%;
     text-align: center;
 }
 
-#middleSection .midlleIcons {
+
+
+.midlleIcons {
     float: left;
     width: 40px;
     height: 40px;
-
-
 }
 
-#middleSection img {
+.footerContainer .middleSection p {
     display: inline-block;
+    color: #ffffff;
     margin: 0;
     text-align: center;
+
 }
 
-#middleSection a {
+
+
+.footerContainer .middleSection p a {
     color: #ffffff;
     text-decoration: none;
     font-size: 16px;
     line-height: 48px;
-
-
-
-
 }
 
-#middleSection p {
-
-    margin: 0;
-    text-align: left;
-}
-
-#middleSection a:hover {
-    color: #d2374e;
+.footerContainer .middleSection p a:hover {
+    color: #e31d3b;
     text-decoration: none;
+
 }
 
-#middleSection h3 {
+
+
+.footerContainer .middleSection div,
+h3 {
+
     text-align: left;
+
 }
 
 /* Footer Right */
-#rightSection {
+
+.footerContainer .rightSection {
     width: 20%;
     text-align: left;
 }
 
-#rightIcons {
+
+
+
+.footerContainer .rightIcons {
     margin-top: 25px;
     text-align: left;
+
+
 }
 
-#rightIcons a {
+.footerContainer .rightIcons a {
     display: inline-block;
     background-color: #33383b;
     border-radius: 50%;
@@ -644,12 +646,17 @@ body {
     margin-bottom: 5px;
 }
 
-#rightIcons a:hover {
-    background-color: #d2374e;
+.footerContainer .rightIcons a:hover {
+    background-color: #e31d3b;
 }
 
-.iconImg {
+.footerContainer .rightIcons .iconImg {
     width: 35px;
     height: 35px;
 }
+
+
+
+
+
 /* The end of Footer */
