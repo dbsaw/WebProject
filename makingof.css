@@ -41,17 +41,16 @@ nav ul {
 
 nav li {
     height: 50px;
-    font-size: 1.4em;
+    font-size: 1em;
 }
 
 nav #bar a {
     color: white;
     height: 100%;
-    padding: 0 30px;
+    padding: 0 15px;
     text-decoration: none;
     display: flex;
     align-items: center;
-
 }
 
 nav #bar {
