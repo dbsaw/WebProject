@@ -73,24 +73,30 @@ nav #bar a:hover {
     color: #d2374e;
     border-radius: 3px;
 }
+
 /* End for style for navigation bar */
 /*  The start of ourStory page */
 
-#ref-head{margin-bottom: 5%; background-color:#1c1c1c; padding: 2%; color: white; text-align: center; }
+#ref-head {
+    margin-bottom: 5%;
+    background-color: #1c1c1c;
+    padding: 2%;
+    color: white;
+    text-align: center;
+}
 
-#reflection-container{
-    
+#reflection-container {
 
     box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.1);
     text-align: justify;
     padding: 5%;
-    margin: 50 50;
- 
+    margin: 0 0 40 0;
+
 }
-#reflection-container h2
-{
-      text-align: center;
-    
+
+#reflection-container h2 {
+    text-align: center;
+
 }
 
 
