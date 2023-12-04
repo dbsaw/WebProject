@@ -1,15 +1,13 @@
 <html>
 
 <head>
+
     <title>Home</title>
-    <link rel="icon"  href="images/Asset 1@4x.png">
-
     <link rel="stylesheet" typr="text/css" href="styles.css">
-
-    
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
     </style>
+    <script src="script.js"></script>
 </head>
 
 
@@ -173,23 +171,23 @@
 
                 <div class="input-box">
                     <label>First Name:</label>
-                    <input type="text" id="firstName" class="inpt" placeholder="First Name" required><br>
+                    <input type="text" id="firstName" class="inpt" placeholder="First Name" ><br>
                 </div>
 
                 <div class="input-box">
                     <label>Last Name:</label>
-                    <input type="text" id="lastName" class="inpt" placeholder="Last Name" required><br>
+                    <input type="text" id="lastName" class="inpt" placeholder="Last Name" ><br>
                 </div>
 
                 <div class="input-box">
                     <label>Mobile No:</label>
-                    <input type="text" id="mobileNo" class="inpt" placeholder="Mobile No" required><br>
+                    <input type="text" id="mobileNo" class="inpt" placeholder="Mobile No" ><br>
                 </div>
 
 
                 <div class="input-box">
                     <label>E-mail:</label>
-                    <input type="email" id="email" class="inpt" placeholder="Email" required><br>
+                    <input type="text" id="email" class="inpt" placeholder="Email" ><br>
                 </div>
                 <label id="message"></label>
 
@@ -207,7 +205,9 @@
 
 
 
-<footer id="footerContainer">
+    <!-- The start of Footer -->
+
+    <footer id="footerContainer">
 
         <div id="leftSection">
             <h3>Support</h3>
@@ -217,111 +217,62 @@
                 <a href="#">Privacy Policy</a>
                 |
                 <a href="#">Help
-
+    
                 </a>
-
+    
             </p>
-
+    
             <p id="copyright">Copyright © 2023 <strong>FitZone</strong> All rights reserved</p>
-
-
+    
+    
         </div>
-
-
-
+    
+    
+    
         <div id="middleSection">
             <h3>Contact Us</h3>
-
+    
             <div>
-
-
-
+    
+    
+    
                 <p><img class="midlleIcons" src="images/mail.png"><a href="#">FitZone@gmail.com</a></p>
             </div>
-
+    
             <div>
-
+    
                 <p><img class="midlleIcons" src="images/phone.png"><a href="#">+973 33415864</a></p>
             </div>
             <div>
-
+    
                 <p><img class="midlleIcons" src="images/location.png"><a href="#">Manama, Bahrain</a></p>
             </div>
-
-
+    
+    
         </div>
-
+    
         <div id="rightSection">
-
-
+    
+    
             <h3>Follow Us</h3>
-
-
+    
+    
             <div id="rightIcons">
                 <a href="#"><img class="iconImg" src="images/Instgram.png"></a>
                 <a href="#"><img class="iconImg" src="images/facebook.png"> </a>
                 <a href="#"><img class="iconImg" src="images/X.png"></a>
                 <a href="#"><img class="iconImg" src="images/tiktok.png"></a>
-
             </div>
         </div>
     </footer>
-
-
+    
+    
     <!-- The end of Footer -->
+    
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <script>
-
-        function validate() {
-            event.preventDefault();
-            var firstName = document.getElementById("firstName").value;
-            var lastName = document.getElementById("lastName").value;
-            var mobileNo = document.getElementById("mobileNo").value;
-
-
-
-
-            if (firstName.length < 3) {
-
-                document.getElementById("message").innerHTML = "First Name should have at least 3 characters.";
-
-            }
-            else if (lastName.length < 3) {
-                document.getElementById("message").innerHTML = "Last Name should have at least 3 characters.";
-
-            }
-            else if (isNaN(mobileNo)) {
-                document.getElementById("message").innerHTML = "Mobile number must numbers ONLY";
-
-
-            }
-
-            else if (mobileNo.length !== 8 || isNaN(mobileNo)) {
-                document.getElementById("message").innerHTML = "Mobile number must contain 8 digits.";
-
-
-            }
-
-            else {
-                document.getElementById("message").innerHTML = "Form submitted successfully!";
-            }
-
-        }
-    </script>
 
 
 
