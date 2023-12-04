@@ -1,8 +1,6 @@
 <html>
 
 <head>
-    <title>Calorie Calculator</title>
-    <link rel="icon"  href="images/Asset 1@4x.png">
     <link rel="stylesheet" typr="text/css" href="calc-styles.css" />
     <script src="script.js">
     </script>
@@ -11,7 +9,7 @@
     </style>
 </head>
 
-<body class="home">
+<body id="calculator-page" onload="getname()">
     <!-- The start of Header and Navegation -->
 
     <nav>
@@ -32,7 +30,7 @@
 
     <!-- The end of Header and Navegation -->
     <div id="welcome">
-        <h1>Welcom to our Calorie Calculator</h1>
+        <h1>Welcom <span id="firstName"></span> to our Calorie Calculator</h1>
         <p>
             Discover your daily caloric needs with our user-friendly Calorie Calculator. Input your weight, height,
             and
