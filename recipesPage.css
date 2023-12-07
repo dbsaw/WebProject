@@ -1,4 +1,3 @@
-
 /* Stert for style for navigation bar */
 * {
     margin: 0;
@@ -74,85 +73,80 @@ nav #bar a:hover {
     color: #d2374e;
     border-radius: 3px;
 }
+
 /* End for style for navigation bar */
 /*  The start of recipes page */
 
 
-.recpage
-{
+.recpage {
 
-     margin:0;
-    
+    margin: 0;
+
 }
-.recpage *
-{   
+
+.recpage * {
     box-sizing: border-box;
 }
 
-.recintro
-{
- font-size:2em;
- padding: 2rem;
-background: #1c1c1c;
-    
+.recintro {
+    font-size: 2em;
+    padding: 2rem;
+    background: #1c1c1c;
+
 }
 
-.recintro p
-{
- font-size:0.70em;
-font-weight: lighter;
-color: white;
-    
+.recintro p {
+    font-size: 0.70em;
+    font-weight: lighter;
+    color: white;
+    width: 80%;
+    text-align: justify;
 }
 
-.recintro h1
-{
+.recintro h1 {
 
-color: white;
-font-size:0.95em
-    
+    color: white;
+    font-size: 0.95em
 }
 
-.meal
-{
-    padding:  1.5rem;   
-    
-     
-}
-.meal h1
-{
+.meal {
+    padding: 1.5rem;
 
-   padding:3rem 5rem;
-  
+
+}
+
+.meal h1 {
+
+    padding: 3rem 5rem;
+
 
 }
 
 
-.cardContainer{
-     display: grid;
-	 grid-template-columns: repeat(auto-fit, 17em);
-	 grid-column-gap: 20em;
-     grid-row-gap: 5em;
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17em);
+    grid-column-gap: 20em;
+    grid-row-gap: 5em;
     justify-content: center;
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
 
-    
-    
+
+
 }
 
 .card {
-  
+
     background-color: #ececec;
     width: 200%;
     height: 24em;
     position: relative;
-    
- }
 
-.card:hover
-{
+}
+
+.card:hover {
     outline: 4px solid #999999;
     cursor: pointer;
 
@@ -160,25 +154,24 @@ font-size:0.95em
 
 
 
-.recImg 
-{
-    width: 50%; 
+.recImg {
+    width: 50%;
     height: 100%;
 
 }
 
 
 
- 
 
-.cardContent
-{
-    float:right;
+
+.cardContent {
+    float: right;
     width: 50%;
     text-align: justify;
-    
-       
+
+
 }
+
 .recTitle {
 
     margin: 0;
@@ -186,52 +179,54 @@ font-size:0.95em
     padding: 0.99rem;
     background: #d2374e;
     height: 18%;
-       
-    
-    
-}
-.recTitle h2{
-  margin:0;
-  font-size:1.35rem;
-  font-weight: bold;
-  color:white;  
-text-align: left;
-    
-}
-.recTitle p{
-  margin:0;
-  font-size:.70rem;
-  text-align: left;
-  line-height:1.4rem;
-  font-weight: bold;
-  color:#fcd408;
+
+
+
 }
 
-
-
-.recInfo 
-{
- padding: 0.99rem;
-font-size:0.82rem;
-color:black;
-
-  
-    
+.recTitle h2 {
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: white;
+    text-align: left;
 
 }
-  
+
+.recTitle p {
+    margin: 0;
+    font-size: .70rem;
+    text-align: left;
+    line-height: 1.4rem;
+    font-weight: bold;
+    color: #fcd408;
+}
 
 
-.recInfo ul 
-{
 
-    
+.recInfo {
+    padding: 0.99rem;
+    font-size: 0.82rem;
+    color: black;
+
+
+
+
+}
+
+
+
+.recInfo ul {
+
+
     padding: 1rem;
-    
+
 }
 
 
-.recintro #firstName{color:#d2374e ;}
+.recintro #firstName {
+    color: #d2374e;
+}
 
 
 
@@ -367,5 +362,3 @@ color:black;
     width: 35px;
     height: 35px;
 }
-
-

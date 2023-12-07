@@ -90,7 +90,7 @@ nav #bar a:hover {
     font-size: 1.5em;
     line-height: 1.5;
     padding-bottom: 2%;
-    width: 50%;
+    width: 80%;
     text-align: justify;
 }
 
@@ -203,7 +203,9 @@ th {
 /* End Calc */
 
 
-#calculator-page #firstName{color:#d2374e ;}
+#calculator-page #firstName {
+    color: #d2374e;
+}
 
 /* Footer */
 #footerContainer {

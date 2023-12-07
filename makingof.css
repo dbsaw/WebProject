@@ -70,6 +70,7 @@ nav #bar a:hover {
     padding: 0;
     scroll-behavior: smooth;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -103,8 +104,10 @@ body {
 
 #desgn {
 
-    display: flex;justify-content: center;
-    margin-top: 2%; margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 
@@ -120,14 +123,13 @@ body {
 #makingcontainer {
     color: white;
     background-color: #d2374e;
-  padding: 20px;
+    padding: 20px;
 
 }
 
 
 #mock-ups {
-    margin-top: 4
-    0px;
+    margin-top: 4 0px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -144,24 +146,44 @@ body {
     width: 70%;
     color: black;
     padding-bottom: 0;
-  
+
 }
 
-.image img{
-  
-height: 100%;
+.image img {
+
+    height: 100%;
 }
-.image{
+
+.image {
     width: 30%;
     display: flex;
     flex-direction: column;
 
 }
 
-.explain p{margin-top: 5%; font-size: 1.5em;}
-#m-head{margin-top:5% ;margin-bottom: 5%; background-color:#1c1c1c; padding: 2%; color: white;  }
-#webm-head{margin-bottom: 5%; background-color:#1c1c1c; padding: 2%; color: white;  }
+.explain p {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
 
+#m-head {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #1c1c1c;
+    padding: 2%;
+    color: white;
+}
+
+#webm-head {
+    margin-bottom: 5%;
+    background-color: #1c1c1c;
+    padding: 2%;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
 
 
 
