@@ -69,7 +69,6 @@ nav #bar a:hover {
     padding: 0;
     scroll-behavior: smooth;
 }
-
 /* Home Page*/
 body {
     font-family: 'Montserrat', sans-serif;
@@ -77,9 +76,6 @@ body {
 
 
 /* general style for the page */
-#home p {
-    font-size: 25px;
-}
 
 .scroll-button {
     display: flex;
@@ -92,7 +88,7 @@ body {
 
 /* Style for the first section of the home page "Brief" */
 .brief {
-    /* background-color: #484545; */
+    /*This img was retrived from https://www.pexels.com/photo/an-on-treadmill-1954524/*/
 
     background: URL("images/Asset-22.png") no-repeat;
     background-size: 100% 100%;
@@ -119,7 +115,8 @@ body {
     color: white;
     text-align: justify;
     /* font-weight: bold; */
-    width: 80%;
+    width: 40%;
+    font-size: 25px;
 }
 
 #brief-desc {
@@ -177,6 +174,7 @@ body {
 }
 
 #training-img {
+    /* this img was retrived from https://gymplus.com.au/collections/garage-gym-package*/
     background: url("./images/FIRST-PAGE4.png") no-repeat;
     background-size: 100% 100%;
     width: 30%;
@@ -199,7 +197,7 @@ body {
 }
 
 #training p {
-
+    font-size: 25px;
     letter-spacing: 2px;
     margin-top: 50px;
     color: White;
@@ -210,6 +208,7 @@ body {
 
 #recipes p,
 #calc p {
+    font-size: 25px;
     letter-spacing: 2px;
     margin-top: 70px;
     color: white;
@@ -246,16 +245,16 @@ body {
 
 #training-img button,
 #recipes-img button {
-    font-family: 'Montserrat', 'sans-serif';
+
     background-color: #e31d3b;
     color: white;
     font-weight: bold;
-    width: 200px;
+    letter-spacing: 2px;
+    width: 220px;
     height: 60px;
     text-align: center;
     border: none;
     border-radius: 5px;
-    font-size: 0.8em;
     margin: 0 auto;
     margin-top: 90%;
 }
@@ -276,6 +275,7 @@ body {
 
 /* style for the third section of the home page "calculator" */
 #calc {
+    /* this img was retrived from https://tropeaka.com/blogs/the-latest/8-principles-of-weight-training-every-gym-goer-needs-to-know*/
     background: URL("./images/FIRST-PAGE2.png") no-repeat;
     background-size: 100% 100%;
     padding: 70px;
@@ -287,9 +287,6 @@ body {
     color: #e31d3b;
 }
 
-#calc p {
-    color: white;
-}
 
 #calc-button button {
 
@@ -297,13 +294,13 @@ body {
     background-color: #e31d3b;
     color: white;
     font-weight: bold;
-    width: 200px;
+    letter-spacing: 2px;
+    width: 220px;
     height: 60px;
     text-align: center;
     border: none;
     border-radius: 5px;
-    font-size: 0.8em;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 #calc-button {
@@ -315,33 +312,10 @@ body {
     fill: #e31d3b;
 }
 
-#calc-button a:active,
-#training-button a:active,
-#recipes-button a:active {
-    color: white;
-    text-decoration: none;
-}
-
-#calc-button a:link,
-#training-button a:link,
-#recipes-button a:link {
-    color: white;
-    text-decoration: none;
-}
-
-#calc-button a:hover,
-#training-button a:hover,
-#recipes-button a:hover {
-    color: white;
-    text-decoration: underline;
-}
-
-#calc-button a:visited,
-#training-button a:visited,
-#recipes-button a:visited {
-    color: white;
-    text-decoration: underline;
-}
+#calc-button a:active,#training-button a:active,#recipes-button a:active{color: white; text-decoration: none;}
+#calc-button a:link,#training-button a:link,#recipes-button a:link{color: white; text-decoration: none;}
+#calc-button a:hover,#training-button a:hover,#recipes-button a:hover{color: white; text-decoration:underline;}
+#calc-button a:visited,#training-button a:visited,#recipes-button a:visited{color: white; text-decoration:underline;}
 
 
 /* end of style for the third section of the home page "calculator" */
@@ -393,7 +367,7 @@ body {
     display: inline-block;
     border: 1px solid grey;
     border-radius: 4px;
-
+   
 }
 
 #register form .input-box {
@@ -409,17 +383,12 @@ body {
     background-color: #1c1c1c;
     color: white;
     font-weight: bold;
-    width: 200px;
+    letter-spacing: 2px;
+    width: 220px;
     height: 60px;
     text-align: center;
     border: none;
     border-radius: 5px;
-    font-size: 1em;
-    font-family: 'Montserrat', sans-serif;
-}
-
-p {
-    text-align: justify;
 }
 
 /* end of style for the registration form section */
@@ -443,14 +412,12 @@ p {
     font-size: 1.5em;
     line-height: 1.5;
     padding-bottom: 3%;
-    text-align: justify;
-    width: 80%;
 }
 
 
 /*style for the "pilates" section */
 #pilates {
-
+/*This img was retrived from https://central.gymshark.com/article/what-is-pilates-what-to-wear-to-pilates*/
     background: url("./images/pilates2.png") no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -492,9 +459,8 @@ p {
     padding: 1%;
     float: left;
 }
-
-.coloumn video {
-    width: 100%;
+.coloumn video{
+    width :100%;
     height: 315;
 }
 
@@ -507,6 +473,7 @@ p {
 /*style for the cardio section */
 
 #cardio {
+    /*This img was retrived from https://www.muscleandfitness.com/workouts/workout-tips/8-cardio-workouts-guy-who-hates-cardio/*/
     background: url(./images/cardio.png) no-repeat;
     margin-top: 2%;
     background-size: cover;
@@ -516,7 +483,7 @@ p {
 }
 
 #strength {
-
+/*This img was retrived from https://4minuteback.com/contact-us*/
     background: url(./images/strength2.jpg) no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -528,7 +495,7 @@ p {
 /*end of styling for the training page*/
 
 
-#training-page #firstName {
+#training-page #firstName{
     color: #d2374e;
 }
 
