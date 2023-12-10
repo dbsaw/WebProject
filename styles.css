@@ -184,6 +184,7 @@ body {
 }
 
 #recipes-img {
+    /*This img was retrived from www.skinnytaste.com*/
     background: url("./images/FIRST-PAGE5.jpg") no-repeat;
     background-size: 100% 100%;
     width: 30%;
