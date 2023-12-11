@@ -91,7 +91,7 @@ body {
 .brief {
     /*This img was retrived from https://www.pexels.com/photo/an-on-treadmill-1954524/*/
 
-    background: URL("images/Asset-22.png") no-repeat;
+    background: URL("../images/Asset-22.png") no-repeat;
     background-size: 100% 100%;
     padding: 100px;
 
@@ -176,7 +176,7 @@ body {
 
 #training-img {
     /* this img was retrived from https://gymplus.com.au/collections/garage-gym-package*/
-    background: url("./images/FIRST-PAGE4.png") no-repeat;
+    background: url("../images/FIRST-PAGE4.png") no-repeat;
     background-size: 100% 100%;
     width: 30%;
     display: flex;
@@ -186,7 +186,7 @@ body {
 
 #recipes-img {
     /*This img was retrived from www.skinnytaste.com*/
-    background: url("./images/FIRST-PAGE5.jpg") no-repeat;
+    background: url("../images/FIRST-PAGE5.jpg") no-repeat;
     background-size: 100% 100%;
     width: 30%;
     display: flex;
@@ -278,7 +278,7 @@ body {
 /* style for the third section of the home page "calculator" */
 #calc {
     /* this img was retrived from https://tropeaka.com/blogs/the-latest/8-principles-of-weight-training-every-gym-goer-needs-to-know*/
-    background: URL("./images/FIRST-PAGE2.png") no-repeat;
+    background: URL("../images/FIRST-PAGE2.png") no-repeat;
     background-size: 100% 100%;
     padding: 70px;
     padding-bottom: 0;

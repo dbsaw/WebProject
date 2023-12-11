@@ -109,7 +109,7 @@ body {
 /*style for the "pilates" section */
 #pilates {
     /*This img was retrived from https://central.gymshark.com/article/what-is-pilates-what-to-wear-to-pilates*/
-    background: url("./images/pilates2.png") no-repeat;
+    background: url("../images/pilates2.png") no-repeat;
     background-size: cover;
     max-width: 100%;
     padding: 2%;
@@ -166,7 +166,7 @@ body {
 
 #cardio {
     /*This img was retrived from https://www.muscleandfitness.com/workouts/workout-tips/8-cardio-workouts-guy-who-hates-cardio/*/
-    background: url(./images/cardio.png) no-repeat;
+    background: url(../images/cardio.png) no-repeat;
     margin-top: 2%;
     background-size: cover;
     max-width: 100%;
@@ -176,7 +176,7 @@ body {
 
 #strength {
     /*This img was retrived from https://4minuteback.com/contact-us*/
-    background: url(./images/strength2.jpg) no-repeat;
+    background: url(../images/strength2.jpg) no-repeat;
     background-size: cover;
     max-width: 100%;
     margin-top: 2%;
