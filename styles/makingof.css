@@ -112,10 +112,11 @@ body {
 
 
 #pdq1 {
-    font-size: 28px;
+    font-size: 1.2em;
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
+    margin-bottom: 2%;
 }
 
 
@@ -124,7 +125,6 @@ body {
     color: white;
     background-color: #d2374e;
     padding: 20px;
-
 }
 
 
@@ -158,12 +158,11 @@ body {
     width: 30%;
     display: flex;
     flex-direction: column;
-
 }
 
 .explain p {
     margin-top: 5%;
-    font-size: 1.5em;
+    font-size: 1.1em;
 }
 
 #m-head {
