@@ -1,0 +1,364 @@
+/* Stert for style for navigation bar */
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    background-color: #d2374e;
+    justify-content: center;
+    display: flex;
+    height: 12%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#logo h1 {
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#logo img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+nav h1 {
+    padding: 10px;
+}
+
+nav ul {
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li {
+    height: 50px;
+    font-size: 1em;
+}
+
+nav #bar a {
+    color: white;
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav #bar {
+    margin-right: 2%;
+}
+
+nav #bar a:hover {
+    background-color: #ffffff;
+    color: #d2374e;
+    border-radius: 3px;
+}
+
+/* End for style for navigation bar */
+/*  The start of recipes page */
+
+
+.recpage {
+
+    margin: 0;
+
+}
+
+.recpage * {
+    box-sizing: border-box;
+}
+
+.recintro {
+    font-size: 2em;
+    padding: 2rem;
+    background: #1c1c1c;
+
+}
+
+.recintro p {
+    font-size: 0.70em;
+    font-weight: lighter;
+    color: white;
+    width: 80%;
+    text-align: justify;
+}
+
+.recintro h1 {
+
+    color: white;
+    font-size: 0.95em
+}
+
+.meal {
+    padding: 1.5rem;
+
+
+}
+
+.meal h1 {
+
+    padding: 3rem 5rem;
+
+
+}
+
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17em);
+    grid-column-gap: 20em;
+    grid-row-gap: 5em;
+    justify-content: center;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.card {
+
+    background-color: #ececec;
+    width: 200%;
+    height: 24em;
+    position: relative;
+
+}
+
+.card:hover {
+    outline: 4px solid #999999;
+    cursor: pointer;
+
+}
+
+
+
+.recImg {
+    width: 50%;
+    height: 100%;
+
+}
+
+
+
+
+
+.cardContent {
+    float: right;
+    width: 50%;
+    text-align: justify;
+
+
+}
+
+.recTitle {
+
+    margin: 0;
+    display: block;
+    padding: 0.99rem;
+    background: #d2374e;
+    height: 18%;
+
+
+
+}
+
+.recTitle h2 {
+    margin: 0;
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+
+}
+
+.recTitle p {
+    margin: 0;
+    font-size: .70rem;
+    text-align: left;
+    line-height: 1.4rem;
+    font-weight: bold;
+    color: #fcd408;
+}
+
+
+
+.recInfo {
+    padding: 0.99rem;
+    font-size: 0.82rem;
+    color: black;
+
+
+
+
+}
+
+
+
+.recInfo ul {
+
+
+    padding: 1rem;
+
+}
+
+
+.recintro #firstName {
+    color: #d2374e;
+}
+
+
+
+/*  The end of recipes page */
+
+/* Footer */
+#footerContainer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 1.75% 3%;
+}
+
+#leftSection,
+#middleSection,
+#rightSection {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+#leftSection {
+    width: 35%;
+    text-align: left;
+}
+
+#footerContainer h3 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Footer links */
+#links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+#copyright {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+#links a:hover {
+    color: #d2374e;
+}
+
+/* Footer Center */
+#middleSection {
+    width: 34%;
+    text-align: center;
+}
+
+#middleSection .midlleIcons {
+    float: left;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+#middleSection img {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+#middleSection a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 48px;
+
+
+
+
+}
+
+#middleSection p {
+
+    margin: 0;
+    text-align: left;
+}
+
+#middleSection a:hover {
+    color: #d2374e;
+    text-decoration: none;
+}
+
+#middleSection h3 {
+    text-align: left;
+}
+
+/* Footer Right */
+#rightSection {
+    width: 20%;
+    text-align: left;
+}
+
+#rightIcons {
+    margin-top: 25px;
+    text-align: left;
+}
+
+#rightIcons a {
+    display: inline-block;
+    background-color: #33383b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+#rightIcons a:hover {
+    background-color: #d2374e;
+}
+
+.iconImg {
+    width: 35px;
+    height: 35px;
+}

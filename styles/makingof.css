@@ -1,0 +1,352 @@
+/*header*/
+nav {
+    background-color: #d2374e;
+    justify-content: center;
+    display: flex;
+    height: 12%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#logo h1 {
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#logo img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+nav h1 {
+    padding: 10px;
+}
+
+nav ul {
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li {
+    height: 50px;
+    font-size: 1em;
+}
+
+nav #bar a {
+    color: white;
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav #bar {
+    margin-right: 2%;
+}
+
+nav #bar a:hover {
+    background-color: #ffffff;
+    color: #d2374e;
+    border-radius: 3px;
+}
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/*Making of webiste page style*/
+/* Making of */
+#makin {
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+}
+
+#mocks {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+
+#mockz {
+    margin-left: 40px;
+    width: 50%;
+}
+
+#rigmock {
+    float: right;
+    width: 46%;
+}
+
+#desgn {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+#pdq1 {
+    font-size: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+
+
+#makingcontainer {
+    color: white;
+    background-color: #d2374e;
+    padding: 20px;
+
+}
+
+
+#mock-ups {
+    margin-top: 4 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mockup-container {
+    margin-bottom: 5%;
+    display: flex;
+    height: 50%;
+    box-shadow: 3px 3px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.explain {
+    padding: 70px;
+    width: 70%;
+    color: black;
+    padding-bottom: 0;
+
+}
+
+.image img {
+
+    height: 100%;
+}
+
+.image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.explain p {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+#m-head {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: #1c1c1c;
+    padding: 2%;
+    color: white;
+}
+
+#webm-head {
+    margin-bottom: 5%;
+    background-color: #1c1c1c;
+    padding: 2%;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+
+
+/*  The start of footer  */
+
+
+
+.footerContainer {
+    background-color: #1c1c1c;
+
+    text-align: center;
+    padding: 1.75% 3%;
+
+}
+
+.footerContainer .leftSection,
+.footerContainer .middleSection,
+.footerContainer .rightSection {
+    display: inline-block;
+    vertical-align: top;
+
+
+}
+
+/* Footer left */
+
+.footerContainer .leftSection {
+    width: 35%;
+    text-align: left;
+}
+
+.footerContainer h3 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+
+}
+
+
+
+/* Footer links */
+
+.footerContainer .links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.footerContainer .links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+
+
+.footerContainer .copyright {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+.footerContainer .links a:hover {
+
+    color: #e31d3b;
+}
+
+
+
+
+
+
+/* Footer Center */
+
+.footerContainer .middleSection {
+    width: 34%;
+    text-align: center;
+}
+
+
+
+.midlleIcons {
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+
+.footerContainer .middleSection p {
+    display: inline-block;
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+
+}
+
+
+
+.footerContainer .middleSection p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 48px;
+}
+
+.footerContainer .middleSection p a:hover {
+    color: #e31d3b;
+    text-decoration: none;
+
+}
+
+
+
+.footerContainer .middleSection div,
+h3 {
+
+    text-align: left;
+
+}
+
+/* Footer Right */
+
+.footerContainer .rightSection {
+    width: 20%;
+    text-align: left;
+}
+
+
+
+
+.footerContainer .rightIcons {
+    margin-top: 25px;
+    text-align: left;
+
+
+}
+
+.footerContainer .rightIcons a {
+    display: inline-block;
+    background-color: #33383b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footerContainer .rightIcons a:hover {
+    background-color: #e31d3b;
+}
+
+.footerContainer .rightIcons .iconImg {
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
+/* The end of Footer */
