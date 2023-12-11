@@ -1,0 +1,324 @@
+/*header*/
+nav {
+    background-color: #d2374e;
+    justify-content: center;
+    display: flex;
+    height: 12%;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#logo h1 {
+    font-size: 50px;
+    padding-top: 10px;
+    color: white;
+}
+
+#logo img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+
+nav h1 {
+    padding: 10px;
+}
+
+nav ul {
+
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+nav li {
+    height: 50px;
+    font-size: 1em;
+}
+
+nav #bar a {
+    color: white;
+    height: 100%;
+    padding: 0 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+nav #bar {
+    margin-right: 2%;
+}
+
+nav #bar a:hover {
+    background-color: #ffffff;
+    color: #d2374e;
+    border-radius: 3px;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Home Page*/
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* general style for the page */
+
+.scroll-button {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* End for style for navigation bar */
+
+/* start for styling for the training page */
+
+#welcome {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 3%;
+}
+
+#welcome h1 {
+    padding-bottom: 3%;
+
+}
+
+#welcome p {
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding-bottom: 3%;
+}
+
+
+/*style for the "pilates" section */
+#pilates {
+    /*This img was retrived from https://central.gymshark.com/article/what-is-pilates-what-to-wear-to-pilates*/
+    background: url("./images/pilates2.png") no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+
+
+}
+
+#pilates h1,
+#cardio h1,
+#strength h1 {
+    font-size: 40px;
+}
+
+#pilates p,
+#cardio p,
+#strength p {
+    letter-spacing: 1px;
+    margin-top: 10px;
+    color: balck;
+    line-height: 30px;
+    font-weight: bold;
+
+
+}
+
+#pilates-hide,
+#cardio-hide,
+#strength-hide {
+
+    max-height: 0;
+    overflow: hidden;
+
+}
+
+.coloumn {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+.coloumn video {
+    width: 100%;
+    height: 315;
+}
+
+.my-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*style for the cardio section */
+
+#cardio {
+    /*This img was retrived from https://www.muscleandfitness.com/workouts/workout-tips/8-cardio-workouts-guy-who-hates-cardio/*/
+    background: url(./images/cardio.png) no-repeat;
+    margin-top: 2%;
+    background-size: cover;
+    max-width: 100%;
+    padding: 2%;
+    /*style for the strength section */
+}
+
+#strength {
+    /*This img was retrived from https://4minuteback.com/contact-us*/
+    background: url(./images/strength2.jpg) no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin-top: 2%;
+    padding: 2%;
+
+}
+
+
+
+
+#training-page #firstName {
+    color: #d2374e;
+}
+/*end of styling for the training page*/
+
+/* Footer */
+#footerContainer {
+    background-color: #1c1c1c;
+    text-align: center;
+    padding: 1.75% 3%;
+}
+
+#leftSection,
+#middleSection,
+#rightSection {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+#leftSection {
+    width: 35%;
+    text-align: left;
+}
+
+#footerContainer h3 {
+    color: #ffffff;
+    font-size: 40px;
+    margin: 0;
+    text-align: left;
+}
+
+/* Footer links */
+#links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    font-size: 16px;
+    text-align: left;
+}
+
+#links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+#copyright {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    text-align: left;
+}
+
+#links a:hover {
+    color: #d2374e;
+}
+
+/* Footer Center */
+#middleSection {
+    width: 34%;
+    text-align: center;
+}
+
+#middleSection .midlleIcons {
+    float: left;
+    width: 40px;
+    height: 40px;
+
+
+}
+
+#middleSection img {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+#middleSection a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 48px;
+
+
+
+
+}
+
+#middleSection p {
+
+    margin: 0;
+    text-align: left;
+}
+
+#middleSection a:hover {
+    color: #d2374e;
+    text-decoration: none;
+}
+
+#middleSection h3 {
+    text-align: left;
+}
+
+/* Footer Right */
+#rightSection {
+    width: 20%;
+    text-align: left;
+}
+
+#rightIcons {
+    margin-top: 25px;
+    text-align: left;
+}
+
+#rightIcons a {
+    display: inline-block;
+    background-color: #33383b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+#rightIcons a:hover {
+    background-color: #d2374e;
+}
+
+.iconImg {
+    width: 35px;
+    height: 35px;
+}
