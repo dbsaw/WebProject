@@ -69,6 +69,7 @@ nav #bar a:hover {
     padding: 0;
     scroll-behavior: smooth;
 }
+
 /* Home Page*/
 body {
     font-family: 'Montserrat', sans-serif;
@@ -115,7 +116,7 @@ body {
     color: white;
     text-align: justify;
     /* font-weight: bold; */
-    width: 40%;
+    width: 80%;
     font-size: 25px;
 }
 
@@ -246,16 +247,16 @@ body {
 
 #training-img button,
 #recipes-img button {
-
+    font-family: 'Montserrat', 'sans-serif';
     background-color: #e31d3b;
     color: white;
     font-weight: bold;
-    letter-spacing: 2px;
     width: 220px;
     height: 60px;
     text-align: center;
     border: none;
     border-radius: 5px;
+    font-size: 0.8em;
     margin: 0 auto;
     margin-top: 90%;
 }
@@ -295,13 +296,13 @@ body {
     background-color: #e31d3b;
     color: white;
     font-weight: bold;
-    letter-spacing: 2px;
-    width: 220px;
+    width: 200px;
     height: 60px;
     text-align: center;
     border: none;
     border-radius: 5px;
-
+    font-size: 0.8em;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #calc-button {
@@ -313,10 +314,33 @@ body {
     fill: #e31d3b;
 }
 
-#calc-button a:active,#training-button a:active,#recipes-button a:active{color: white; text-decoration: none;}
-#calc-button a:link,#training-button a:link,#recipes-button a:link{color: white; text-decoration: none;}
-#calc-button a:hover,#training-button a:hover,#recipes-button a:hover{color: white; text-decoration:underline;}
-#calc-button a:visited,#training-button a:visited,#recipes-button a:visited{color: white; text-decoration:underline;}
+#calc-button a:active,
+#training-button a:active,
+#recipes-button a:active {
+    color: white;
+    text-decoration: none;
+}
+
+#calc-button a:link,
+#training-button a:link,
+#recipes-button a:link {
+    color: white;
+    text-decoration: none;
+}
+
+#calc-button a:hover,
+#training-button a:hover,
+#recipes-button a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#calc-button a:visited,
+#training-button a:visited,
+#recipes-button a:visited {
+    color: white;
+    text-decoration: underline;
+}
 
 
 /* end of style for the third section of the home page "calculator" */
@@ -368,7 +392,7 @@ body {
     display: inline-block;
     border: 1px solid grey;
     border-radius: 4px;
-   
+
 }
 
 #register form .input-box {
@@ -384,12 +408,22 @@ body {
     background-color: #1c1c1c;
     color: white;
     font-weight: bold;
-    letter-spacing: 2px;
-    width: 220px;
+    /* letter-spacing: 2px; */
+    width: 200px;
     height: 60px;
     text-align: center;
     border: none;
     border-radius: 5px;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    text-align: justify;
+}
+
+.mandatory {
+    color: red;
 }
 
 /* end of style for the registration form section */
@@ -418,7 +452,7 @@ body {
 
 /*style for the "pilates" section */
 #pilates {
-/*This img was retrived from https://central.gymshark.com/article/what-is-pilates-what-to-wear-to-pilates*/
+    /*This img was retrived from https://central.gymshark.com/article/what-is-pilates-what-to-wear-to-pilates*/
     background: url("./images/pilates2.png") no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -460,8 +494,9 @@ body {
     padding: 1%;
     float: left;
 }
-.coloumn video{
-    width :100%;
+
+.coloumn video {
+    width: 100%;
     height: 315;
 }
 
@@ -484,7 +519,7 @@ body {
 }
 
 #strength {
-/*This img was retrived from https://4minuteback.com/contact-us*/
+    /*This img was retrived from https://4minuteback.com/contact-us*/
     background: url(./images/strength2.jpg) no-repeat;
     background-size: cover;
     max-width: 100%;
@@ -496,7 +531,7 @@ body {
 /*end of styling for the training page*/
 
 
-#training-page #firstName{
+#training-page #firstName {
     color: #d2374e;
 }
 
