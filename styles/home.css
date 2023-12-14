@@ -273,6 +273,29 @@ body {
 
 }
 
+/* Add this to your existing CSS file or create a new one and link it in your HTML */
+
+#welcome {
+    display: none; /* Initially hide the welcome message */
+    text-align: center;
+  }
+  
+  #welcome h1 {
+    font-size: 3em;
+    color: #ffffff; /* Adjust the color as needed */
+  }
+
+  #welcome p{
+    font-size: 1.5em;
+  }
+  
+  #welcome span {
+    font-weight: bold;
+  }
+  
+  /* Add any additional styling for the welcome message content here */
+  
+
 /* end of Style for the second and the fourth section of the home page "training" and "recipes" */
 
 /* style for the third section of the home page "calculator" */
