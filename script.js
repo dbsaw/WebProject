@@ -69,6 +69,8 @@ else if(email==""){
   }
 
   else {
+      rigi=document.getElementById('register');
+      rigi.style.display='hide';
       sessionStorage.setItem('firstName', firstName);
       sessionStorage.setItem('lastName', lastName);
       sessionStorage.setItem('mobileNo', mobileNo);
