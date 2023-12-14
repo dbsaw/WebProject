@@ -94,7 +94,17 @@ nav #bar a:hover {
 
 #reflection-container h2 {
     text-align: center;
+    
+    
 
+}
+
+#webTitle
+
+{
+    font-style: italic;
+    font-weight: bold;
+    color: #d2374e;
 }
 
 
